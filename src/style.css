@@ -1,0 +1,73 @@
+h1, h2, h3,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #10444B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1EAD9A;
+  gap: 5px;
+
+}
+
+.inner-container {
+  margin: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.counter h1 {
+  font-size: 70px;
+}
+
+.WeightBar-Container {
+  width: 400px;
+  height: 200px;
+  
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  width: 300px;
+  height: 5px;
+  background-color: #AFD592;
+}
+
+.WeightPlate-Container {
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.plates {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #1EAD9A;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 80px;
+  color: #FFFFFF;
+}
