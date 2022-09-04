@@ -49,6 +49,27 @@ p {
   width: 300px;
   height: 5px;
   background-color: #AFD592;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+  box-shadow: 0px 45px 50px  rgba(5, 21, 23, 0);
+  border-radius: 3px;
+  transform: translateY(10px);
+
+}
+
+.bar-shadow {
+  width: 300px;
+  height: 5px;
+  background-color: #AFD592;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+  box-shadow: 0px 45px 20px  rgb(5, 21, 23, 0.45);
+  transform: translateY(0px);
+  transition: 0.4s;
 }
 
 .WeightPlate-Container {
@@ -70,4 +91,39 @@ p {
   align-items:center;
   border-radius: 80px;
   color: #FFFFFF;
+}
+
+.visiblePlate {
+  background-color: #1EAD9A;
+  position: absolute;
+  border: 1px solid #10444B;
+  box-shadow: -1px 0px 3px 1 #000000; 
+}
+
+.barstop {
+  width: 10px;
+  height: 25px;
+  background-color: #1EAD9A;
+  border-radius: 3px;
+
+}
+
+.five {
+  width: 6px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.fourtyfive {
+  width: 7.5px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.left {
+  transform: translateX(-75px);
+}
+
+.right {
+  transform: translateX(75px);
 }

@@ -18,7 +18,7 @@ export default function App() {
 
       <div className="inner-container">
       <WeightCounter weight={currentWeight}/>
-      <WeightBar />
+      <WeightBar visibleWeight={currentWeight} />
       <Plates updateWeight={ weightValue => SetWeight(currentWeight + weightValue * 2)} />
       </div>
 
