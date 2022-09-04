@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
 
 
-export default function Weightplates(props) {
+export default function Weightplates( {weightVal, updateWeight}) {
 
 
 
 
 
-return <div onClick={updatclassName="plates"> <h3>{ weightVal }</h3> </div>
+return <div onClick={() => updateWeight(weightVal)} className="plates"> <h3>{ weightVal }</h3> </div>
 
 
 }

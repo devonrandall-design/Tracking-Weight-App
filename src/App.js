@@ -16,7 +16,7 @@ export default function App() {
       <h1>Workout</h1>
       <p>Create Your Workout</p>
 
-      <div class="inner-container">
+      <div className="inner-container">
       <WeightCounter weight={currentWeight}/>
       <WeightBar />
       <Plates updateWeight={ weightValue => SetWeight(currentWeight + weightValue * 2)} />
