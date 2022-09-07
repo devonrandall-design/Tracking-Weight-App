@@ -4,6 +4,14 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.big {
+  font-size: 75px;
+}
+
+p {
+  color: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;

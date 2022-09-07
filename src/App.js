@@ -18,7 +18,7 @@ export default function App() {
 
     <div className="main">
       <h1>Workout</h1>
-      <p>Create Your Workout</p>
+      <p>Log Your Workout</p>
 
       <div className="inner-container">
       <WeightCounter weight={currentWeight}/>

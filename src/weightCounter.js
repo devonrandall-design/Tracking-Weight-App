@@ -4,6 +4,6 @@ export default function WeightCounter(props) {
 
 
 
-return <h1>{props.weight}</h1>
+return <h1 className="big">{props.weight}</h1>
 
 }
