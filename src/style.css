@@ -127,3 +127,11 @@ p {
 .right {
   transform: translateX(75px);
 }
+
+.being-dragged {
+  opacity: 0.5;
+}
+
+.drag-entering {
+  opacity: 0.75;
+}

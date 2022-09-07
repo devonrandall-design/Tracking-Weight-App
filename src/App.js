@@ -8,6 +8,10 @@ export default function App() {
 
   const [currentWeight, SetWeight] = useState(0)
 
+  let dragValue = currentWeight
+
+  
+
 
 
   return (
@@ -18,7 +22,7 @@ export default function App() {
 
       <div className="inner-container">
       <WeightCounter weight={currentWeight}/>
-      <WeightBar visibleWeight={currentWeight} />
+      <WeightBar dragUpdate={dragValue => SetWeight(currentWeight + dragValue)} dragWeight={dragValue}  visibleWeight={currentWeight} />
       <Plates updateWeight={ weightValue => SetWeight(currentWeight + weightValue * 2)} />
       </div>
 

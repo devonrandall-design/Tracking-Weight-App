@@ -7,7 +7,7 @@ export default function Plates( {updateWeight}) {
 
 return ( <div currentWeightValue="we" className="WeightPlate-Container">
 
-{ weightValues.map((weights => { return <Weightplates weightVal={weights} updateWeight={updateWeight} /> }))}
+{ weightValues.map((weights => { return <Weightplates key={'weight-' + weights} weightVal={weights} updateWeight={updateWeight} /> }))}
     
     </div> )
 
