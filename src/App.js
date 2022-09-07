@@ -16,7 +16,7 @@ export default function App() {
 
   return (
 
-    <div class="main">
+    <div className="main">
       <h1>Workout</h1>
       <p>Create Your Workout</p>
 

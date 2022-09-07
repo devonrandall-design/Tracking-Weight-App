@@ -5,7 +5,7 @@ export default function Plates( {updateWeight}) {
 
   const weightValues = ['5', '10', '25', '35', '45']
 
-return ( <div currentWeightValue="we" className="WeightPlate-Container">
+return ( <div  className="WeightPlate-Container">
 
 { weightValues.map((weights => { return <Weightplates key={'weight-' + weights} weightVal={weights} updateWeight={updateWeight} /> }))}
     
