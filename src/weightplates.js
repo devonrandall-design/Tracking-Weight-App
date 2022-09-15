@@ -16,7 +16,7 @@ function handleDragEnd(e) {
 
 
 
-return <div draggable="true" onTouchMove={handleDrag} onTouchEnd={handleDragEnd} onDrag={handleDrag} onDragEnd={handleDragEnd} onClick={() => updateWeight(weightVal)} className="plates"> <h3>{ weightVal }</h3> </div>
+return <div draggable="true" onTouchStart={() => updateWeight(weightVal)}onTouchMove={handleDrag} onTouchEnd={handleDragEnd} onDrag={handleDrag} onDragEnd={handleDragEnd} onClick={() => updateWeight(weightVal)} className="plates"> <h3>{ weightVal }</h3> </div>
 
 
 }
